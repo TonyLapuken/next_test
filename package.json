@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "editor.formatOnSave": true,
+    "clang-format.executable": "/absolute/path/to/clang-format",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,10 +12,17 @@
   },
   "dependencies": {
     "@next/font": "13.0.7",
+    "@ramonak/react-progress-bar": "^5.0.3",
+    "axios": "^1.3.3",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
+    "firebase": "^9.23.0",
+    "flowbite": "^1.6.6",
+    "just-shuffle": "^4.2.0",
     "next": "13.0.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-helmet": "^6.1.0",
+    "zustand": "^4.3.9"
   }
 }
